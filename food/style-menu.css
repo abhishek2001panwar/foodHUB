@@ -1,0 +1,97 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body{
+  background-color: #7c656d;
+background-image: linear-gradient(0deg, #7c656d 0%, #2c3e3e 50%, #402121 100%);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+} */
+.navbar{
+  height: 100px;
+  width: 100%;
+
+  display: flex;
+ flex-direction: row;
+justify-content: end;
+background-color: rgba(37, 27, 27, 0.5);
+  
+}
+.navbar a {
+ 
+  margin: 40px ;
+font-size: large;
+font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style-type: none;
+  color: rgba(172, 164, 164, 0.9);
+
+z-index: 99;
+}
+.container div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.container div h1{
+  text-transform: capitalize;
+  color: rgb(170, 170, 219);
+  font-size:50px;
+}
+.container div h2{
+  text-transform: capitalize;
+  color: rgb(215, 215, 228);
+  font-size:29px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+.card{
+  margin: 20px;
+  border: 2px solid rgb(92, 84, 84);
+  width: 300px;
+  height: 300px;
+  border-radius:20px;
+
+}
+.cards img{
+  width: 100%;
+  border-radius: 20px;
+}
+.card-text{
+  
+  display: flex;
+ justify-content: center;
+ margin: 40px;
+ color: rgb(36, 31, 31);
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: large;
+}
+.button{
+margin-left: 100px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+width: 97px;
+height: 30px;
+text-transform: capitalize;
+font-size: small;
+border-radius: 20px;
+background-color: rgb(96, 96, 212);
+font-size: larger;
+}
+.button:hover{
+  -webkit-box-shadow: 11px 40px 128px 18px rgba(245,129,27,1);
+  -moz-box-shadow: 11px 40px 128px 18px rgba(245,129,27,1);
+  box-shadow: 11px 40px 128px 18px rgba(245,129,27,1)
+}
